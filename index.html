@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Bubble Game</title>
+</head>
+<body>
+    <div id="main">
+        <div id="panel">
+            <div id="ptop">
+                <div class="elem">
+                    <h4>Hit</h4>
+                    <div class="box" id="hit">X</div>
+                </div>
+                <div class="elem">
+                    <h4>Timer</h4>
+                    <div class="box" id="timer">X</div>
+                </div>
+                <div class="elem">
+                    <h4>Score</h4>
+                    <div class="box" id="score">X</div>
+                </div>
+                <div class="elem">
+                    <h4>High Score</h4>
+                    <div class="box" id="high_score">X</div>
+                </div>
+            </div>
+            <div id="pbtm">
+                <label for="gamer_name"><h1>Enter your name</h1></label>
+                <input type="text" id="gamer_name" placeholder="Player Name">
+                <a href="./game.html" onclick="save_gamer_name()">
+                    <h3 class="start_btn">
+                        Start Game
+                    </h3>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
